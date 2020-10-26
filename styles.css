@@ -1,0 +1,293 @@
+Body {
+    font-family: 'Piazzolla', serif;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s;
+}
+
+.a{
+    text-decoration: none;
+    color: #000;
+    transition: all .3s;
+    text-align: center;
+}
+
+.list-unstyled{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+#nav-ul{
+    color: #fff
+}
+
+.clearfix{
+    content: ;
+    display: table;
+    clear: both; }
+
+    .unstyled-list{
+        margin:0;
+        padding:0;
+    }
+
+    /* Cervezas */
+
+    .h1{
+        color: #dd0000;
+        font-size: 45px;
+        font-family: 'Piazzolla', serif;
+        font-style: bold;
+        text-align: center;
+    }
+
+    .h2{
+        color: #000;
+        font-size: 25px;
+        font-family: 'Piazzolla', serif;
+        font-style: black;
+        text-align: center;
+    }
+
+    .cerveimg{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .p{
+        text-align: justify;
+        font-size: 15px;
+        color: #000;
+        margin-left: 500px;
+        margin-right: 500px;
+        font-style: italic;
+    }
+
+
+    .margene
+        {
+            text-align: center;
+            color:#000
+        }
+
+.ul{
+    text-align: center;
+    list-style: none;
+}
+
+/* Fin cervezas */
+
+.contactos{
+    font-size: 15px;
+    color: #000;
+    margin-left: 800px;
+    margin-right: 500px;
+    font-style: italic;
+}
+
+/* Header Inicio */
+
+header{
+    height: 300px;
+    background: #fff url(../imagenes/bandera.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+/* Fin Header */
+
+/* Top Nav */
+
+#top-nav{
+    width: 980px;
+    padding-top: 20px;
+}
+
+#top-nav nav{
+    width: 590px;;
+}
+
+#top-nav nav ul li{
+    display:inline-block;
+    margin: 12px 20px;
+}
+
+#top-nav nav ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+}
+
+#top-nav nav ul li a:hover{
+    color: yellow;
+}
+
+
+#content{
+    width:800px;
+    height:100px;
+    margin: -30px auto 0 auto;
+    padding:28px 0;
+    text-align:center;
+}
+
+#content p{
+    text-align: justify;
+    font-weight: 300;
+    font-size:20px;
+    line-height: 1.5em;
+    color: #000;
+    padding: 0 120px;
+}
+
+#content h1{
+    color: #dd0000;
+    text-align:center;
+    font-size:40px;
+    font-family: 'Yeseva One';
+    margin:0;
+}
+
+#content h1 span{
+    width:40px;
+    height:2px;
+    margin:auto;
+    background: #dd0000;
+    display:block;
+}
+
+/* Footer */
+
+Footer{
+    margin: auto;
+    background: red;
+    padding-top: 117px;
+}
+
+Footer a{
+    color:#fff;
+}
+
+footer span{
+    display:block;
+    color:#fff;
+}
+
+#footer-nav{
+    width: 700px;
+}
+
+#footer-nav ul li{
+    width: 20%;
+    float: left;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin:5px 0;
+}
+
+#creditos-wrapper{
+    margin:83px 0 0 0;
+    padding:10x 0;
+    background: #000;
+    color:#fff;
+}
+
+#creditos-wrapper a{
+    margin:0 5px;
+}
+
+/* Fin Footer */
+
+/* Video */
+
+#video-wrapper{
+    background: #faf9f9;
+    padding: 193px 0 193px 0;
+    margin-bottom: 50px;
+}
+
+#video-wrapper #video{
+    width: 860px;
+}
+
+/* Fin video */
+
+/* Mobile */
+
+.btn-trigger{
+    display: none;
+}
+
+#menu-mobile{
+   background: #dd0000; 
+   padding:20px;
+   z-index: 5;
+   position: absolute;
+   width: 100%;
+   top:120px;
+   display: none;
+}
+
+#menu-mobile  li{
+    margin-bottom:15px;
+    border-bottom:1px solid rgba(255,255,255,.2);
+}
+
+#menu-mobile.active{
+    display: block;
+}
+
+
+@media screen and (max-width:768px){
+
+    nav{
+        display:none;
+    }
+
+    #logo{
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%)
+    }
+
+    #mensaje{
+        width: 90%;
+        left:50%;
+        text-align:center;
+        transform: translate(-50%,-50%);
+    }
+
+    .btn-trigger{
+        font-size:38px;
+        position:absolute;
+        right:40px;
+        display: inline-block;
+    }
+
+    #beneficios-wrapper ul li{
+        display:block;
+        width:100%;
+        text-align:center;
+    }
+}
+
+/* Fin movil */
